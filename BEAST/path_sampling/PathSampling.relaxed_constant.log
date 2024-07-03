@@ -1,0 +1,537 @@
+
+                        BEAST v2.6.7, 2002-2022
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1694446560597
+
+Alignment(data_full_divergence_filtered_original)
+  35 taxa
+  31446 sites
+  15128 patterns
+
+Filter -
+35 taxa
+31446 sites + 2169217 constant sites
+15132 patterns
+A00 = 0 (0.0)
+A00_I10871 = 7913 (7913.0)
+Chagyrskaya2 = 64000 (64000.0)
+HG02666 = 0 (0.0)
+HG02982 = 0 (0.0)
+HGDP00056 = 0 (0.0)
+HGDP00057 = 0 (0.0)
+HGDP00103 = 0 (0.0)
+HGDP00127 = 0 (0.0)
+HGDP00136 = 0 (0.0)
+25 more...
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+Filter 1-628
+35 taxa
+628 sites + 2169217 constant sites
+543 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 629-1256
+35 taxa
+628 sites
+529 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 1257-1884
+35 taxa
+628 sites
+493 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 1885-2512
+35 taxa
+628 sites
+501 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 2513-3140
+35 taxa
+628 sites
+501 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 3141-3768
+35 taxa
+628 sites
+503 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 3769-4396
+35 taxa
+628 sites
+499 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 4397-5024
+35 taxa
+628 sites
+497 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 5025-5652
+35 taxa
+628 sites
+518 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 5653-6280
+35 taxa
+628 sites
+507 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 6281-6908
+35 taxa
+628 sites
+489 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 6909-7536
+35 taxa
+628 sites
+509 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 7537-8164
+35 taxa
+628 sites
+512 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 8165-8792
+35 taxa
+628 sites
+514 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 8793-9420
+35 taxa
+628 sites
+533 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 9421-10048
+35 taxa
+628 sites
+491 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 10049-10676
+35 taxa
+628 sites
+516 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 10677-11304
+35 taxa
+628 sites
+534 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 11305-11932
+35 taxa
+628 sites
+492 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 11933-12560
+35 taxa
+628 sites
+483 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 12561-13188
+35 taxa
+628 sites
+508 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 13189-13816
+35 taxa
+628 sites
+494 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 13817-14444
+35 taxa
+628 sites
+469 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 14445-15072
+35 taxa
+628 sites
+482 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 15073-15700
+35 taxa
+628 sites
+511 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 15701-16328
+35 taxa
+628 sites
+500 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 16329-16956
+35 taxa
+628 sites
+450 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 16957-17584
+35 taxa
+628 sites
+483 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 17585-18212
+35 taxa
+628 sites
+510 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 18213-18840
+35 taxa
+628 sites
+499 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 18841-19468
+35 taxa
+628 sites
+453 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 19469-20096
+35 taxa
+628 sites
+480 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 20097-20724
+35 taxa
+628 sites
+479 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 20725-21352
+35 taxa
+628 sites
+468 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 21353-21980
+35 taxa
+628 sites
+479 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 21981-22608
+35 taxa
+628 sites
+456 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 22609-23236
+35 taxa
+628 sites
+503 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 23237-23864
+35 taxa
+628 sites
+506 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 23865-24492
+35 taxa
+628 sites
+499 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 24493-25120
+35 taxa
+628 sites
+490 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 25121-25748
+35 taxa
+628 sites
+484 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 25749-26376
+35 taxa
+628 sites
+502 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 26377-27004
+35 taxa
+628 sites
+481 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 27005-27632
+35 taxa
+628 sites
+509 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 27633-28260
+35 taxa
+628 sites
+485 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 28261-28888
+35 taxa
+628 sites
+506 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 28889-29516
+35 taxa
+628 sites
+524 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 29517-30144
+35 taxa
+628 sites
+519 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 30145-30772
+35 taxa
+628 sites
+500 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 30773-31446
+35 taxa
+674 sites
+539 patterns
+  UCRelaxedClockModel: using 68 rate categories to approximate rate distribution across branches.
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+with (Math) { function f(BMT_ProportionInvariable, hasInvariableSites) { return BMT_ProportionInvariable * hasInvariableSites;}
+}
+with (Math) { function f(BMT_gammaShape, hasGammaRates) { return BMT_gammaShape * hasGammaRates;}
+}
+===============================================================================
+Citations for this model:
+
+Bouckaert, Remco, Timothy G. Vaughan, Joëlle Barido-Sottani, Sebastián Duchêne, Mathieu Fourment, 
+Alexandra Gavryushkina, Joseph Heled, Graham Jones, Denise Kühnert, Nicola De Maio, Michael Matschiner, 
+Fábio K. Mendes, Nicola F. Müller, Huw A. Ogilvie, Louis du Plessis, Alex Popinga, Andrew Rambaut, 
+David Rasmussen, Igor Siveroni, Marc A. Suchard, Chieh-Hsi Wu, Dong Xie, Chi Zhang, Tanja Stadler, 
+Alexei J. Drummond 
+  BEAST 2.5: An advanced software platform for Bayesian evolutionary analysis. 
+  PLoS computational biology 15, no. 4 (2019): e1006650.
+
+Bouckaert RR, Drummond AJ. bModelTest: Bayesian phylogenetic site model averaging and model comparison. BMC evolutionary biology. 2017 Dec;17(1):42.
+
+Drummond AJ, Ho SYW, Phillips MJ, Rambaut A (2006) Relaxed Phylogenetics and
+  Dating with Confidence. PLoS Biol 4(5): e88
+
+===============================================================================
+marginalLs[0 ] = -3203121.7188405683
+marginalLs[1 ] = -3203123.54252919
+marginalLs[2 ] = -3203126.237451641
+marginalLs[3 ] = -3203128.93262268
+marginalLs[4 ] = -3203131.3427875643
+marginalLs[5 ] = -3203133.633070608
+marginalLs[6 ] = -3203138.7593978173
+marginalLs[7 ] = -3203140.331520089
+marginalLs[8 ] = -3203143.1360734636
+marginalLs[9 ] = -3203145.8254850777
+marginalLs[10 ] = -3203151.665315194
+marginalLs[11 ] = -3203157.1698174994
+marginalLs[12 ] = -3203162.9329180955
+marginalLs[13 ] = -3203169.380696515
+marginalLs[14 ] = -3203176.117440954
+marginalLs[15 ] = -3203182.4340645457
+marginalLs[16 ] = -3203194.832946121
+marginalLs[17 ] = -3203204.185212089
+marginalLs[18 ] = -3203215.0733474684
+marginalLs[19 ] = -3203229.682674026
+marginalLs[20 ] = -3203246.194767135
+marginalLs[21 ] = -3203263.8292280394
+marginalLs[22 ] = -3203285.5574999456
+marginalLs[23 ] = -3203307.768180998
+marginalLs[24 ] = -3203338.4830269944
+marginalLs[25 ] = -3203366.90034436
+marginalLs[26 ] = -3203402.426594708
+marginalLs[27 ] = -3203456.2818056736
+marginalLs[28 ] = -3203517.977174298
+marginalLs[29 ] = -3203601.550494062
+marginalLs[30 ] = -3203690.5853825957
+marginalLs[31 ] = -3203827.4855350805
+marginalLs[32 ] = -3204013.7995006503
+marginalLs[33 ] = -3204249.517390906
+marginalLs[34 ] = -3204587.1607465395
+marginalLs[35 ] = -3205047.0391694163
+marginalLs[36 ] = -3205780.9334406327
+marginalLs[37 ] = -3206807.0197462966
+marginalLs[38 ] = -3208405.7246936974
+marginalLs[39 ] = -3210525.2393233986
+marginalLs[40 ] = -3213745.9931903644
+marginalLs[41 ] = -3218143.458033497
+marginalLs[42 ] = -3222943.5445547346
+marginalLs[43 ] = -3228294.0127520603
+marginalLs[44 ] = -3237700.115136691
+marginalLs[45 ] = -3250704.36613508
+marginalLs[46 ] = -3300558.0780225988
+marginalLs[47 ] = -3364661.7217365387
+marginalLs[48 ] = -3437379.0260796747
+marginalLs[49 ] = -3834911.386737098
+
+Step        theta         likelihood   contribution ESS
+0            1            -3203121.7188 0            100.355      
+1            0.9336       -3203123.5425 -212758.382  114.8405     
+2            0.8703       -3203126.2375 -202663.593  177.8463     
+3            0.8101       -3203128.9326 -192848.2299 135.49       
+4            0.7529       -3203131.3428 -183310.2851 151.4003     
+5            0.6985       -3203133.6331 -174047.7593 188.5646     
+6            0.647        -3203138.7594 -165058.8097 181.1657     
+7            0.5982       -3203140.3315 -156340.997  182.365      
+8            0.552        -3203143.1361 -147892.4964 201          
+9            0.5084       -3203145.8255 -139711.1281 201          
+10           0.4673       -3203151.6653 -131794.8168 126.0579     
+11           0.4285       -3203157.1698 -124141.2437 188.9871     
+12           0.3921       -3203162.9329 -116748.1594 161.4336     
+13           0.3578       -3203169.3807 -109613.3677 116.571      
+14           0.3258       -3203176.1174 -102734.4649 156.8561     
+15           0.2958       -3203182.4341 -96109.1354  133.1156     
+16           0.2677       -3203194.8329 -89735.1487  109.95       
+17           0.2416       -3203204.1852 -83609.7607  157.5955     
+18           0.2174       -3203215.0733 -77730.5706  201          
+19           0.1949       -3203229.6827 -72095.1207  131.8971     
+20           0.174        -3203246.1948 -66700.7306  201          
+21           0.1548       -3203263.8292 -61544.6605  201          
+22           0.1372       -3203285.5575 -56624.3847  111.1971     
+23           0.1209       -3203307.7682 -51936.892   201          
+24           0.1061       -3203338.483 -47479.5396  201          
+25           0.0926       -3203366.9003 -43249.1224  180.3656     
+26           0.0804       -3203402.4266 -39242.8971  148.7444     
+27           0.0693       -3203456.2818 -35457.7157  201          
+28           0.0593       -3203517.9772 -31890.3414  201          
+29           0.0504       -3203601.5505 -28537.5713  96.1411      
+30           0.0425       -3203690.5854 -25395.8717  165.5357     
+31           0.0355       -3203827.4855 -22462.0516  144.7988     
+32           0.0293       -3204013.7995 -19732.4002  161.8791     
+33           0.024        -3204249.5174 -17203.0604  115.5194     
+34           0.0193       -3204587.1607 -14870.2648  187.9891     
+35           0.0154       -3205047.0392 -12729.8167  166.9005     
+36           0.012        -3205780.9334 -10777.4969  201          
+37           0.0092       -3206807.0197 -9009.8022   201          
+38           0.0069       -3208405.7247 -7421.2859   85.7678      
+39           0.005        -3210525.2393 -6006.7428   152.8798     
+40           0.0035       -3213745.9932 -4760.5561   136.8273     
+41           0.0024       -3218143.458 -3678.2733   198.872      
+42           0.0015       -3222943.5446 -2751.8264   169.5696     
+43           0.0009       -3228294.0128 -1975.0472   172.6452     
+44           0.0005       -3237700.1151 -1342.0573   155.0296     
+45           0.0002       -3250704.3661 -844.6431    201          
+46           0.0001       -3300558.078 -475.1856    5.0558       
+47           0            -3364661.7217 -223.1926    89.6992      
+48           0            -3437379.0261 -71.2094     107.0927     
+49           0            -3834911.3867 -8.2275      116.4261     
+sum(ESS) = 7795.4271   
+
+marginal L estimate = -3203346.3363172514
+
+
+Total wall time: 474760 seconds
+Done

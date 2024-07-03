@@ -1,0 +1,8 @@
+/data/
+*.pkl
+*.fa.gz
+*.fa
+*.maf*
+*.csv
+
+

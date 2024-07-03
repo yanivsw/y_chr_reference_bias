@@ -1,0 +1,43 @@
+<itsabeastystatewerein version='2.0' sample='28469999'>
+<statenode id='Tree.t:data_full_divergence_filtered'>((((0:32184.109471748307,1:24312.824344195964)62:251292.52397547098,((3:153276.45966319504,((((7:71444.59634652309,((((5:32153.69790037134,6:32153.69790037134)38:11275.153900988891,(8:20414.764665477924,30:12458.303856722625)35:23014.08713588417)46:6564.518704567745,(((((((9:26762.743884301603,11:26762.743884301603)49:4765.597476382336,20:31528.34136068394)48:7465.128064029443,33:7276.171605102867)50:7953.7443408435065,15:46947.21376555689)37:569.8924024331936,28:47517.10616799008)42:1360.0854994426845,32:3481.535351532213)63:505.5999119421758,((23:35625.61536939365,27:35625.61536939365)60:6218.947480994364,24:41844.56285038988)56:7538.228728985065)44:610.5789265548956)39:479.24991946966475,10:50472.6204253995)64:20971.975921123587)53:2452.6341662613268,((16:47042.02922287187,26:47042.02922287187)36:22663.393039399125,((17:52872.027655915685,25:52872.027655915685)54:2159.8528290693284,22:55031.88048498501)52:14673.54177728598)57:4191.80825051156)45:26062.343809418424,(((12:63328.49306612688,(13:42327.250306634516,19:42327.250306634516)51:21001.242759492365)55:6510.627785408164,14:69839.1208515369)40:29058.385698849655,18:98897.5065503847)41:1062.0677718181396)61:47340.476069690936,(21:144655.4590774592,29:144655.4590774592)47:2644.5913144345686)58:5976.409271301265)59:26344.25301548341,4:179620.71267867845)43:103855.92076854082)65:113227.63839645399,(2:48054.47435938206,31:68356.28167432082)66:285641.06205559656)67:9311937.253988726,34:9708641.525832402)68:0.0</statenode>
+<statenode id='clockRate.c:data_full_divergence_filtered'>clockRate.c:data_full_divergence_filtered[1 1] (4.0E-10,1.0E-9): 6.60981517915805E-10 </statenode>
+<statenode id='BMT_ModelIndicator.s:data_full_divergence_filtered'>BMT_ModelIndicator.s:data_full_divergence_filtered[1 1] (0,5): 23 </statenode>
+<statenode id='BMT_Rates.s:data_full_divergence_filtered'>BMT_Rates.s:data_full_divergence_filtered[6 1] (0.01,100.0): 0.5343121489054987 1.8612638798783483 0.26376290959024673 0.9450850328419974 1.8428984852640804 0.5617374832751402 </statenode>
+<statenode id='BMT_gammaShape.s:data_full_divergence_filtered'>BMT_gammaShape.s:data_full_divergence_filtered[1 1] (0.001,1000.0): 0.802157259109352 </statenode>
+<statenode id='BMT_ProportionInvariable.s:data_full_divergence_filtered'>BMT_ProportionInvariable.s:data_full_divergence_filtered[1 1] (0.0,1.0): 0.10497023986867887 </statenode>
+<statenode id='hasInvariableSites.s:data_full_divergence_filtered'>hasInvariableSites.s:data_full_divergence_filtered[1 1] (-2147483647,2147483646): 0 </statenode>
+<statenode id='hasGammaRates.s:data_full_divergence_filtered'>hasGammaRates.s:data_full_divergence_filtered[1 1] (-2147483647,2147483646): 1 </statenode>
+<statenode id='hasEqualFreqs.s:data_full_divergence_filtered'>hasEqualFreqs.s:data_full_divergence_filtered[1 1] (null,true): false </statenode>
+<statenode id='BMT_frequencies.s:data_full_divergence_filtered'>BMT_frequencies.s:data_full_divergence_filtered[4 1] (-Infinity,Infinity): 0.3120528843022324 0.1868112830136576 0.18913595044679052 0.31199988223731834 </statenode>
+<statenode id='bPopSizes.t:data_full_divergence_filtered'>bPopSizes.t:data_full_divergence_filtered[5 1] (0.0,Infinity): 5140284.946220647 1180196.6749976892 598466.0632077159 661474.7030822848 2571958.576713122 </statenode>
+<statenode id='bGroupSizes.t:data_full_divergence_filtered'>bGroupSizes.t:data_full_divergence_filtered[5 1] (1,2147483647): 2 10 8 13 1 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"StrictClockRateScaler.c:data_full_divergence_filtered","p":0.9480118268083086,"accept":246754,"reject":1307678,"acceptFC":246738,"rejectFC":1307173,"rejectIv":0,"rejectOp":0},
+{"id":"strictClockUpDownOperator.c:data_full_divergence_filtered","p":0.7336297347872702,"accept":200863,"reject":1356121,"acceptFC":200786,"rejectFC":1355660,"rejectIv":681600,"rejectOp":681600},
+{"id":"BMT_ModelTestOperator.s:data_full_divergence_filtered","p":"NaN","accept":3656,"reject":515564,"acceptFC":3654,"rejectFC":515400,"rejectIv":3081,"rejectOp":3081},
+{"id":"BMT_Ratescaler.s:data_full_divergence_filtered","p":0.05050313367738897,"accept":98725,"reject":420922,"acceptFC":98702,"rejectFC":420763,"rejectIv":0,"rejectOp":0},
+{"id":"BMT_gammaShapeScaler.s:data_full_divergence_filtered","p":0.29461208716101456,"accept":51518,"reject":207055,"acceptFC":51468,"rejectFC":207008,"rejectIv":67368,"rejectOp":67368},
+{"id":"BMT_ProportionInvariableScaler.s:data_full_divergence_filtered","p":0.2116442955269944,"accept":38374,"reject":221184,"acceptFC":38336,"rejectFC":221127,"rejectIv":138735,"rejectOp":138735},
+{"id":"BMT_hasGammaRatesFlipper.s:data_full_divergence_filtered","p":"NaN","accept":1028,"reject":51038,"acceptFC":1028,"rejectFC":51016,"rejectIv":25969,"rejectOp":25969},
+{"id":"BMT_hasInvariableSitesFlipper.s:data_full_divergence_filtered","p":"NaN","accept":9284,"reject":42825,"acceptFC":9280,"rejectFC":42810,"rejectIv":26214,"rejectOp":26214},
+{"id":"BMT_FreqsFlipOperator.s:data_full_divergence_filtered","p":"NaN","accept":0,"reject":51525,"acceptFC":0,"rejectFC":51505,"rejectIv":0,"rejectOp":0},
+{"id":"BMT_FrequenciesExchanger.s:data_full_divergence_filtered","p":0.002075387599861143,"accept":17380,"reject":86267,"acceptFC":17378,"rejectFC":86233,"rejectIv":0,"rejectOp":0},
+{"id":"tipDatesSampler.Age_Chag2","p":9480.020655463195,"accept":401370,"reject":117860,"acceptFC":401171,"rejectFC":117860,"rejectIv":25,"rejectOp":0},
+{"id":"tipDatesSampler.Age_Loschbour","p":399.6231474161984,"accept":165441,"reject":354670,"acceptFC":165265,"rejectFC":354670,"rejectIv":352174,"rejectOp":0},
+{"id":"tipDatesSampler.Age_Mez2","p":3313.800568486659,"accept":260968,"reject":257019,"acceptFC":260783,"rejectFC":257019,"rejectIv":244024,"rejectOp":0},
+{"id":"tipDatesSampler.Age_ShumLaka","p":290.4578125505783,"accept":163433,"reject":356221,"acceptFC":163266,"rejectFC":356221,"rejectIv":354674,"rejectOp":0},
+{"id":"tipDatesSampler.Age_Ust_Ishim","p":2444.329246617795,"accept":258192,"reject":260606,"acceptFC":258018,"rejectFC":260606,"rejectIv":171664,"rejectOp":0},
+{"id":"tipDatesSampler.Age_Yana1","p":948.3321348412811,"accept":190570,"reject":328451,"acceptFC":190394,"rejectFC":328451,"rejectIv":310126,"rejectOp":0},
+{"id":"BayesianSkylineTreeScaler.t:data_full_divergence_filtered","p":0.8434097763250353,"accept":70806,"reject":1483445,"acceptFC":70800,"rejectFC":1482915,"rejectIv":378757,"rejectOp":378737},
+{"id":"BayesianSkylineTreeRootScaler.t:data_full_divergence_filtered","p":0.9228967487430519,"accept":165092,"reject":1391612,"acceptFC":165086,"rejectFC":1391090,"rejectIv":0,"rejectOp":0},
+{"id":"BayesianSkylineUniformOperator.t:data_full_divergence_filtered","p":"NaN","accept":3425799,"reject":12141086,"acceptFC":3424650,"rejectFC":12136958,"rejectIv":433981,"rejectOp":0},
+{"id":"BayesianSkylineSubtreeSlide.t:data_full_divergence_filtered","p":5494.556379601281,"accept":3063096,"reject":4717142,"acceptFC":3060457,"rejectFC":4717141,"rejectIv":540328,"rejectOp":540328},
+{"id":"BayesianSkylineNarrow.t:data_full_divergence_filtered","p":"NaN","accept":893085,"reject":6890626,"acceptFC":892814,"rejectFC":6888175,"rejectIv":760608,"rejectOp":101625},
+{"id":"BayesianSkylineWide.t:data_full_divergence_filtered","p":"NaN","accept":6825,"reject":1549578,"acceptFC":6824,"rejectFC":1549040,"rejectIv":938838,"rejectOp":852430},
+{"id":"BayesianSkylineWilsonBalding.t:data_full_divergence_filtered","p":"NaN","accept":5315,"reject":1550061,"acceptFC":5314,"rejectFC":1549559,"rejectIv":426519,"rejectOp":188772},
+{"id":"popSizesScaler.t:data_full_divergence_filtered","p":0.23519252961352263,"accept":1975239,"reject":5810762,"acceptFC":1973071,"rejectFC":5810289,"rejectIv":0,"rejectOp":0},
+{"id":"groupSizesDelta.t:data_full_divergence_filtered","p":7.455913023026235,"accept":553828,"reject":2559041,"acceptFC":553439,"rejectFC":2558320,"rejectIv":1598255,"rejectOp":1598255}
+]}
+-->

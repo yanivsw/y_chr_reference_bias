@@ -1,0 +1,487 @@
+
+                        BEAST v2.6.7, 2002-2022
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1694446780509
+
+Alignment(data_full_divergence_filtered_original)
+  35 taxa
+  31446 sites
+  15128 patterns
+
+Filter -
+35 taxa
+31446 sites + 2169217 constant sites
+15132 patterns
+A00 = 0 (0.0)
+A00_I10871 = 7913 (7913.0)
+Chagyrskaya2 = 64000 (64000.0)
+HG02666 = 0 (0.0)
+HG02982 = 0 (0.0)
+HGDP00056 = 0 (0.0)
+HGDP00057 = 0 (0.0)
+HGDP00103 = 0 (0.0)
+HGDP00127 = 0 (0.0)
+HGDP00136 = 0 (0.0)
+25 more...
+Filter 1-628
+35 taxa
+628 sites + 2169217 constant sites
+543 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 629-1256
+35 taxa
+628 sites
+529 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 1257-1884
+35 taxa
+628 sites
+493 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 1885-2512
+35 taxa
+628 sites
+501 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 2513-3140
+35 taxa
+628 sites
+501 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 3141-3768
+35 taxa
+628 sites
+503 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 3769-4396
+35 taxa
+628 sites
+499 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 4397-5024
+35 taxa
+628 sites
+497 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 5025-5652
+35 taxa
+628 sites
+518 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 5653-6280
+35 taxa
+628 sites
+507 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 6281-6908
+35 taxa
+628 sites
+489 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 6909-7536
+35 taxa
+628 sites
+509 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 7537-8164
+35 taxa
+628 sites
+512 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 8165-8792
+35 taxa
+628 sites
+514 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 8793-9420
+35 taxa
+628 sites
+533 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 9421-10048
+35 taxa
+628 sites
+491 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 10049-10676
+35 taxa
+628 sites
+516 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 10677-11304
+35 taxa
+628 sites
+534 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 11305-11932
+35 taxa
+628 sites
+492 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 11933-12560
+35 taxa
+628 sites
+483 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 12561-13188
+35 taxa
+628 sites
+508 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 13189-13816
+35 taxa
+628 sites
+494 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 13817-14444
+35 taxa
+628 sites
+469 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 14445-15072
+35 taxa
+628 sites
+482 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 15073-15700
+35 taxa
+628 sites
+511 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 15701-16328
+35 taxa
+628 sites
+500 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 16329-16956
+35 taxa
+628 sites
+450 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 16957-17584
+35 taxa
+628 sites
+483 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 17585-18212
+35 taxa
+628 sites
+510 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 18213-18840
+35 taxa
+628 sites
+499 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 18841-19468
+35 taxa
+628 sites
+453 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 19469-20096
+35 taxa
+628 sites
+480 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 20097-20724
+35 taxa
+628 sites
+479 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 20725-21352
+35 taxa
+628 sites
+468 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 21353-21980
+35 taxa
+628 sites
+479 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 21981-22608
+35 taxa
+628 sites
+456 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 22609-23236
+35 taxa
+628 sites
+503 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 23237-23864
+35 taxa
+628 sites
+506 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 23865-24492
+35 taxa
+628 sites
+499 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 24493-25120
+35 taxa
+628 sites
+490 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 25121-25748
+35 taxa
+628 sites
+484 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 25749-26376
+35 taxa
+628 sites
+502 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 26377-27004
+35 taxa
+628 sites
+481 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 27005-27632
+35 taxa
+628 sites
+509 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 27633-28260
+35 taxa
+628 sites
+485 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 28261-28888
+35 taxa
+628 sites
+506 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 28889-29516
+35 taxa
+628 sites
+524 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 29517-30144
+35 taxa
+628 sites
+519 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 30145-30772
+35 taxa
+628 sites
+500 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Filter 30773-31446
+35 taxa
+674 sites
+539 patterns
+  Using BEAGLE version: 4.0.0 (PRE-RELEASE) resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+with (Math) { function f(BMT_ProportionInvariable, hasInvariableSites) { return BMT_ProportionInvariable * hasInvariableSites;}
+}
+with (Math) { function f(BMT_gammaShape, hasGammaRates) { return BMT_gammaShape * hasGammaRates;}
+}
+===============================================================================
+Citations for this model:
+
+Bouckaert, Remco, Timothy G. Vaughan, Joëlle Barido-Sottani, Sebastián Duchêne, Mathieu Fourment, 
+Alexandra Gavryushkina, Joseph Heled, Graham Jones, Denise Kühnert, Nicola De Maio, Michael Matschiner, 
+Fábio K. Mendes, Nicola F. Müller, Huw A. Ogilvie, Louis du Plessis, Alex Popinga, Andrew Rambaut, 
+David Rasmussen, Igor Siveroni, Marc A. Suchard, Chieh-Hsi Wu, Dong Xie, Chi Zhang, Tanja Stadler, 
+Alexei J. Drummond 
+  BEAST 2.5: An advanced software platform for Bayesian evolutionary analysis. 
+  PLoS computational biology 15, no. 4 (2019): e1006650.
+
+Drummond, A. J., Rambaut, A., Shapiro, B, & Pybus, O. G. (2005).
+Bayesian coalescent inference of past population dynamics from molecular sequences.
+Molecular biology and evolution, 22(5), 1185-1192.
+
+Bouckaert RR, Drummond AJ. bModelTest: Bayesian phylogenetic site model averaging and model comparison. BMC evolutionary biology. 2017 Dec;17(1):42.
+
+===============================================================================
+marginalLs[0 ] = -3203124.622975289
+marginalLs[1 ] = -3203126.6367260427
+marginalLs[2 ] = -3203128.538434233
+marginalLs[3 ] = -3203130.8021078156
+marginalLs[4 ] = -3203132.361100363
+marginalLs[5 ] = -3203136.0441483427
+marginalLs[6 ] = -3203138.010001403
+marginalLs[7 ] = -3203140.2443686905
+marginalLs[8 ] = -3203144.7810993306
+marginalLs[9 ] = -3203146.241240517
+marginalLs[10 ] = -3203152.6206541047
+marginalLs[11 ] = -3203156.5187549894
+marginalLs[12 ] = -3203160.099445579
+marginalLs[13 ] = -3203169.5278062755
+marginalLs[14 ] = -3203174.228423036
+marginalLs[15 ] = -3203184.686372761
+marginalLs[16 ] = -3203192.2090040706
+marginalLs[17 ] = -3203202.339496862
+marginalLs[18 ] = -3203212.2062751553
+marginalLs[19 ] = -3203227.695133787
+marginalLs[20 ] = -3203237.9876519428
+marginalLs[21 ] = -3203254.7672529435
+marginalLs[22 ] = -3203273.3234147616
+marginalLs[23 ] = -3203292.585496698
+marginalLs[24 ] = -3203323.1394809945
+marginalLs[25 ] = -3203353.1902416334
+marginalLs[26 ] = -3203377.2405290618
+marginalLs[27 ] = -3203427.750196168
+marginalLs[28 ] = -3203489.4638922326
+marginalLs[29 ] = -3203552.2217526343
+marginalLs[30 ] = -3203649.334614208
+marginalLs[31 ] = -3203755.4341006796
+marginalLs[32 ] = -3203941.377215017
+marginalLs[33 ] = -3204181.859951244
+marginalLs[34 ] = -3204443.534533154
+marginalLs[35 ] = -3204905.655307208
+marginalLs[36 ] = -3205527.5306914463
+marginalLs[37 ] = -3206444.8867485137
+marginalLs[38 ] = -3208039.0531926374
+marginalLs[39 ] = -3209861.712291854
+marginalLs[40 ] = -3212938.5300741843
+marginalLs[41 ] = -3217001.8086908683
+marginalLs[42 ] = -3222016.9922102145
+marginalLs[43 ] = -3227955.2947454434
+marginalLs[44 ] = -3235864.5308802123
+marginalLs[45 ] = -3248458.949729664
+marginalLs[46 ] = -3305747.217386273
+marginalLs[47 ] = -3365437.4411738357
+marginalLs[48 ] = -3450224.457653115
+marginalLs[49 ] = -3773809.7104164553
+
+Step        theta         likelihood   contribution ESS
+0            1            -3203124.623 0            191.8892     
+1            0.9336       -3203126.6367 -212758.6003 198.2375     
+2            0.8703       -3203128.5384 -202663.7595 201          
+3            0.8101       -3203130.8021 -192848.3526 184.0067     
+4            0.7529       -3203132.3611 -183310.3576 78.6623      
+5            0.6985       -3203136.0441 -174047.9132 201          
+6            0.647        -3203138.01  -165058.7716 201          
+7            0.5982       -3203140.2444 -156341.0206 201          
+8            0.552        -3203144.7811 -147892.5841 137.7593     
+9            0.5084       -3203146.2412 -139711.1496 201          
+10           0.4673       -3203152.6207 -131794.8528 135.934      
+11           0.4285       -3203156.5188 -124141.2067 136.3103     
+12           0.3921       -3203160.0994 -116748.0753 107.9936     
+13           0.3578       -3203169.5278 -109613.3819 133.9571     
+14           0.3258       -3203174.2284 -102734.4556 201          
+15           0.2958       -3203184.6864 -96109.2233  142.4933     
+16           0.2677       -3203192.209 -89735.0846  201          
+17           0.2416       -3203202.3395 -83609.6929  201          
+18           0.2174       -3203212.2063 -77730.5018  201          
+19           0.1949       -3203227.6951 -72095.0568  190.9644     
+20           0.174        -3203237.9877 -66700.5669  131.9361     
+21           0.1548       -3203254.7673 -61544.5364  178.5462     
+22           0.1372       -3203273.3234 -56624.1786  137.4858     
+23           0.1209       -3203292.5855 -51936.7199  201          
+24           0.1061       -3203323.1395 -47479.3093  201          
+25           0.0926       -3203353.1902 -43248.9268  166.8486     
+26           0.0804       -3203377.2405 -39242.6174  186.8563     
+27           0.0693       -3203427.7502 -35457.4354  175.8582     
+28           0.0593       -3203489.4639 -31890.0877  150.4665     
+29           0.0504       -3203552.2218 -28537.1328  195.923      
+30           0.0425       -3203649.3346 -25395.5567  151.2688     
+31           0.0355       -3203755.4341 -22461.6858  200.583      
+32           0.0293       -3203941.3772 -19731.988   201          
+33           0.024        -3204181.86  -17202.6246  125.4335     
+34           0.0193       -3204443.5345 -14869.5268  139.2204     
+35           0.0154       -3204905.6553 -12729.289   201          
+36           0.012        -3205527.5307 -10776.9778  165.9183     
+37           0.0092       -3206444.8867 -9008.4448   201          
+38           0.0069       -3208039.0532 -7420.0406   201          
+39           0.005        -3209861.7123 -6004.9342   187.2339     
+40           0.0035       -3212938.5301 -4759.1081   167.9648     
+41           0.0024       -3217001.8087 -3676.7466   201          
+42           0.0015       -3222016.9922 -2750.9313   201          
+43           0.0009       -3227955.2947 -1974.8467   201          
+44           0.0005       -3235864.5309 -1341.4108   201          
+45           0.0002       -3248458.9497 -844.5043    117.7483     
+46           0.0001       -3305747.2174 -475.2903    13.25        
+47           0            -3365437.4412 -224.4456    136.4447     
+48           0            -3450224.4577 -71.2599     165.4666     
+49           0            -3773809.7104 -8.2386      201          
+sum(ESS) = 8552.6608   
+
+marginal L estimate = -3203333.4022928337
+
+
+Total wall time: 369762 seconds
+Done
