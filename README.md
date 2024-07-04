@@ -1,7 +1,7 @@
 This repo contains all computational analyses, in the form of [Jupyter Notebooks](https://jupyter.org/), used in the paper: *Resolving the source of branch length variation in the Y chromosome phylogeny*.
 
 **Running the Notebooks**:
-- Before running the notebooks, the input VCF data should first be downloaded (Zenodo link) and extracted to `data/input_data/`.
+- Before running the notebooks, the input VCF data should first be downloaded from Zenodo (DOI: 10.5281/zenodo.12635540) and extracted to `data/input_data/`.
 
 - The notebooks are intended to be run in numerical order. The full computational analysis should be completed in less than a day.
 
